@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kigali Explorer | Home</title>
+    <link rel="stylesheet" href="style-home.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🇷🇼 kigali guide</div>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">home</a></li>
+            <li><a href="nyandungu.html">nyandungu</a></li>
+            <li><a href="kimironko.html">kimironko</a></li>
+            <li><a href="heights.html">heights</a></li>
+            <li><a href="inema.html">inema</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Hero with images (images 1,2,3) -->
+    <section class="hero">
+        <h1>Eat & Do in Kigali</h1>
+        <p>Your local guide to the city of a thousand hills</p>
+        <div class="hero-images">
+            <img src="https://placehold.co/600x400/2c5f2d/white?text=Kigali+Hills" alt="hills">
+            <img src="https://placehold.co/600x400/d4a373/white?text=Local+Food" alt="food">
+            <img src="https://placehold.co/600x400/5a4d7c/white?text=Art+Scene" alt="art">
+        </div>
+    </section>
+
+    <!-- FORM (required) -->
+    <section class="form-section">
+        <h2>📧 Get Local Tips</h2>
+        <form>
+            <input type="text" placeholder="Your name" required>
+            <input type="email" placeholder="Email address" required>
+            <select>
+                <option>I love food</option>
+                <option>I love nature</option>
+                <option>I love art</option>
+            </select>
+            <button type="submit">Subscribe →</button>
+        </form>
+    </section>
+
+    <!-- TABLE (required) -->
+    <section class="table-section">
+        <h2>📊 Places at a Glance</h2>
+        <table>
+            <thead>
+                <tr><th>Destination</th><th>Best For</th><th>Cost (RWF)</th><th>Time</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Nyandungu</td><td>Nature walks</td><td>2,000</td><td>2-3 hrs</td></tr>
+                <tr><td>Kimironko</td><td>Local food</td><td>5,000</td><td>1-2 hrs</td></tr>
+                <tr><td>Heights</td><td>Rooftop dining</td><td>15,000</td><td>1-2 hrs</td></tr>
+                <tr><td>Inema</td><td>Art & coffee</td><td>Free</td><td>1-2 hrs</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- LISTS: Unordered + Ordered (required) -->
+    <section class="lists">
+        <div class="unordered">
+            <h3>🍽️ Must-Try Foods (Unordered)</h3>
+            <ul>
+                <li>Brochettes - grilled goat/beef</li>
+                <li>Isombe - cassava leaves</li>
+                <li>Akabenz - crispy pork</li>
+                <li>Fresh avocado from roadside</li>
+            </ul>
+        </div>
+        <div class="ordered">
+            <h3>📌 Perfect Day in Kigali (Ordered)</h3>
+            <ol>
+                <li>Coffee at Question Coffee</li>
+                <li>Morning walk at Nyandungu</li>
+                <li>Lunch at Kimironko Market</li>
+                <li>Afternoon art at Inema</li>
+                <li>Sunset drink at Kigali Heights</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- VIDEO (required) + AUDIO (required) -->
+    <section class="media-row">
+        <div class="video-box">
+            <h3>🎬 Kigali in Motion (Video)</h3>
+            <video controls width="100%">
+                <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+                Your browser doesn't support video.
+            </video>
+        </div>
+        <div class="audio-box">
+            <h3>🎧 Local Sounds (Audio)</h3>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                Your browser doesn't support audio.
+            </audio>
+        </div>
+    </section>
+
+    <!-- EMBEDDED MAP / IFRAME (required) -->
+    <section class="map-section">
+        <h3>📍 Find Your Way Around Kigali</h3>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102311.972864892!2d30.0486859!3d-1.9441928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed5e4c3%3A0xf783f7012c9be035!2sKigali!5e0!3m2!1sen!2srw!4v1712345678901" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen 
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- INTERNAL + EXTERNAL LINKS (required) -->
+    <footer>
+        <div class="links">
+            <h4>Internal Links (within our site)</h4>
+            <a href="nyandungu.html">🌿 Explore Nyandungu</a>
+            <a href="kimironko.html">🛒 Visit Kimironko Market</a>
+            <a href="heights.html">🍷 Dine at Kigali Heights</a>
+            <a href="inema.html">🎨 Discover Inema Arts</a>
+            
+            <h4>External Links (other websites)</h4>
+            <a href="https://visitkigali.com" target="_blank">Official Kigali Tourism</a>
+            <a href="https://www.lonelyplanet.com/rwanda/kigali" target="_blank">Lonely Planet: Kigali</a>
+            <a href="https://en.wikipedia.org/wiki/Kigali" target="_blank">Kigali on Wikipedia</a>
+        </div>
+        <p>© 2026 Kigali Explorer — <a href="#top">Back to Top (internal link)</a></p>
+    </footer>
+</main>
+
+</body>
+</html>
